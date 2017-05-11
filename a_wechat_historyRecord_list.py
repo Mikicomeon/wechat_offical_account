@@ -24,7 +24,7 @@ def get_nextpageInfo(account_name,biz,pass_ticket,nextpage_id):
         # 'Referer' : 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA3NzU2MzkwMg==&scene=124&devicetype=android-22&version=26050733&lang=zh_CN&nettype=WIFI&a8scene=3&pass_ticket=foYQOvBQnETExafe41ehqBy4KJAuVfvChZlQQD2UBk7%2FMvgL0WEg8J4IPjfBefbS&wx_header=1',
         'Accept-Encoding': 'gzip, deflate',
         'Accept-Language': 'zh-CN,en-US;q=0.8',
-        'cookie' : 'wxtokenkey=010855925d400d0df63ed35bb90ad25b4b04c8164afeba7443f17dd23e705b4d; wxticket=1359661935; wxticketkey=51ba71558f10ceac90264ef4165cfe8a4b04c8164afeba7443f17dd23e705b4d; wap_sid=CKSZkvIBEkAzME1MRWRfVS1WbkkybmRSbWRnS0d5cGh2Vm13Ri1GTUxsWmxxX2Mtc3Z0MElzc29uVGI1VHZxNzY2MVVXM3JxGAQgpBQozvvQngswqq7LyAU=; wap_sid2=CKSZkvIBElxacnJWY2xCbzQtVnJSU2FqU18wZkJtc3hBWnhjT1VEck1jdXJ1alhqVXdYSk4wbHJTemNFeHNrNk95Z3hleld3NlY2ZlJLcUtjT1A4a3BTQ1lZaXV0WWdEQUFBfjCqrsvIBQ==; pass_ticket=NCYZkDMHSV+oj+BdKQXKfpuAaOjUiLQVm8Z/EFSlKHtF1xmKtj/GyxKkOXrDv2Vl'
+        'cookie' : 'wxtokenkey=4ab5869c6253e4e2993cef6a2e2bb9d3f4a75c61037a8cbfa7bc58f18f75ab0a; wxticket=1584902625; wxticketkey=40e1e63343592f614fbf6a5305030d17f4a75c61037a8cbfa7bc58f18f75ab0a; rewardsn=aaf9608db19a1ddab19a; wap_sid=CKy6+dgCEkB4ZndjRHNxWDFLUzd0b3d4eTFQWlJ6ekdsQy16TVpuN3I2MjBUOGQyenZ6a3F5RXdGLXNwLTlkSXlxb3c1SWtBGAQgpBQon4SM9ggw4KHPyAU=; wap_sid2=CKy6+dgCElwybUhHWDNSY1c5Ml85YlEyWmNtVjVDOEJFdWIzTTBDMlZuQmR1aXlscTBHN0M5bGRfWkN0V2lwOXdqQlZESkdCYTl1MERmRmJHNzkwMTVrSjBXX2phWWdEQUFBfjDgoc/IBQ==; pass_ticket=3ctNc/GTSQstHj09GWDO0fLMkoyiW5m3SeBR+e1Qy4xLLDJMt77aFR8SO8Ru5CBK'
         # 'cookie': 'wxtokenkey=375f0f10a05c2270b63d380f5f674dee324b5d28744cfa94f032c6ddcf5b0b3b; wxticket=2890078309; wxticketkey=d91b424ae28371030e9d8ccfc68089ff324b5d28744cfa94f032c6ddcf5b0b3b; wap_sid=CKSZkvIBEkBMRTFrTUJNckVoYm1tczgzSllvNE9Ta21UTkJoemdhX1E2WjU1SVVtME4xTXNZc3p3V0pVWE5Pa3NkZldlMzBSGAQgpBQoteTi9wgw4e7EyAU=; wap_sid2=CKSZkvIBElx2eWFuVlFEODdVbTk2YVplR2VGVktyMnpMejQzQXJMTnZDWW5kWER2eFBZZGpqYXRYUHVRbTI0dzM2eEw4QUdFemlYQy10RnZrWXY3RTBzbmhOZlMtWWNEQUFBfjDh7sTIBQ==; pass_ticket=JQMpooOj50E19uV6QLmqdlIY/y4Lw66kdcNBPRtpCm1k9uBj875XYnrQgMyrpugR'
     }
     time.sleep(3)
@@ -110,19 +110,19 @@ def get_nextpageInfo(account_name,biz,pass_ticket,nextpage_id):
 
 
 if __name__ == '__main__':
-    url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNzAzMTExOA==&scene=124&devicetype=android-22&version=26050733&lang=zh_CN&nettype=WIFI&a8scene=3&pass_ticket=NCYZkDMHSV%2Boj%2BBdKQXKfpuAaOjUiLQVm8Z%2FEFSlKHtF1xmKtj%2FGyxKkOXrDv2Vl&wx_header=1'
+    url = 'http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MjM5NTE0NDczNQ==&devicetype=android-22&version=26050733&lang=zh_CN&nettype=WIFI&ascene=3&pass_ticket=3ctNc%2FGTSQstHj09GWDO0fLMkoyiW5m3SeBR%2Be1Qy4xLLDJMt77aFR8SO8Ru5CBK&wx_header=1'
     headers = {
         'Host': 'mp.weixin.qq.com',
         'Connection': 'keep-alive',
         'Upgrade-Insecure-Requests': '1',
         'User-Agent': 'Mozilla/5.0 (Linux; Android 5.1; OPPO R9m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043220 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
-        'x-wechat-uin': 'NTA3ODA4OTMy',
-        'x-wechat-key': '2d144062cc378406eb7529410130508c92faced8eaaace164ebc9a6f4ae321d6ca8f4ff735931db3cc56d12093af055b3c846a0cc0b8ba421677390bf36b7ab50f490a07aea07f34e38482a506c094d8',
+        'x-wechat-uin': 'NzIzNDEwMjIw',
+        'x-wechat-key': '8b4eac29ab45a16cb4bb569a43b8fad4b3cc8da5867980f4d2619fb95262b89e266057d0e45ba3ebabc66207b5fdb69da00977c265cf21df9bca475500a158bff46ade1b4ef3f76327d732bbcb16bf3c',
         'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8",
         'Accept-Encoding': 'gzip, deflate',
         'Accept-Language': 'zh-CN,en-US;q=0.8',
         # 'Cookie': 'rewardsn=36e7d6fe2704515124c4; wxtokenkey=8e2316a6101f11f2b67511578047f5434c015569fde23f75d5256459a845c5a2; wxticket=2705568732; wxticketkey=7104693cb5e79b7a92e6194923c42c9c4c015569fde23f75d5256459a845c5a2; wap_sid=CKy6+dgCEkBMR0xTVWdOSG9MVjE5X3RwTVg0VWF0X2FuMFpDMVdadmlSb3hMMmw2ZmFUQXJmTW9LVzlReDlBZHowMEZvUzhpGAQg/REo/su/uwswmYHAyAU=; wap_sid2=CKy6+dgCEnB0MERVVEgwSThPeWVuUjd6QkdDYkhwaDQyeGc1RXR4Q2dlUEJhTU9UQzNCQW80YTgyQ2RHc0F2NjFzdnIwSjBWUThYZzJlZ3JMdU5JdEV2TE9hX1Z5b3lGcVhoLXRjN21uYXVaUTlUVjNpaUhBd0FBMJmBwMgF; pass_ticket=foYQOvBQnETExafe41ehqBy4KJAuVfvChZlQQD2UBk7/MvgL0WEg8J4IPjfBefbS',
-        'cookie': 'wxtokenkey=3584b46479afb19a0c74e631a1cc7695741dd8e59a9db7e748d2f4c029967642; wxticket=2971538957; wxticketkey=f14442e2d7cf49b0c537a5153f0fa5c2741dd8e59a9db7e748d2f4c029967642; wap_sid=CKy6+dgCEkA3MmtmaUI0TU1sYjZEQWZUa0szdHNkMi1UYWwtUERFNkY3TnZSUURqZmU1VktkMGtBT1VhMkNxc3VLQnBqNGdiGAQg/REosKHf8wgwrKjLyAU=; wap_sid2=CKy6+dgCElxDRmhfYVRCQU1JSHlvZGtjUEhCVnhPQVRFTEREcXJVaF8yc2FDY2dpUkt2anFwSjFXTUpRM0dvMFZiUlNFZml0RnZ0NVZzNnR0X2RSWlVEWkd5Y3pBNGdEQUFBfjCsqMvIBQ==; pass_ticket=3L7yC3FvnntD8rQ5DSk55pI0PgI3y+wlhgi2999q2oPaLYcUKvwpQN5AI7+s3/IV',
+        'cookie': 'wxtokenkey=4ab5869c6253e4e2993cef6a2e2bb9d3f4a75c61037a8cbfa7bc58f18f75ab0a; wxticket=1584902625; wxticketkey=40e1e63343592f614fbf6a5305030d17f4a75c61037a8cbfa7bc58f18f75ab0a; wap_sid=CKy6+dgCEkBENzJFSGVadGxzU1JHejNjbjZ0M0ppWXEyQ0Voek9MSzVJOUFfU2pkMUQxMy1wb1g5M3lNdDNrSVRhOVYxSEQzGAQg/BEoocPEnAwwp4TPyAU=; wap_sid2=CKy6+dgCElxhVTBESEhjUEtnbWVRZDhBcWhQcVQtOEkwMnlBYzgwdTdocXJNOGgtRFRqbVRKa0w0ZlpDeHR5QUFnaVJaQ0h4ZmxaRWVNNFVtVWdtVEpNZkNTUXlxSWdEQUFBfjCnhM/IBQ==; pass_ticket=3ctNc/GTSQstHj09GWDO0fLMkoyiW5m3SeBR+e1Qy4xLLDJMt77aFR8SO8Ru5CBK; rewardsn=aaf9608db19a1ddab19a',
         'Q-UA2': 'QV=3&PL=ADR&PR=WX&PP=com.tencent.mm&PPVN=6.5.7&TBSVC=43101&CO=BK&COVC=043220&PB=GE&VE=GA&DE=PHONE&CHID=0&LCID=9422&MO= OPPOR9m &RL=1080*1920&OS=5.1&API=22',
         'Q-GUID': '418422abad49d5cdf489bc8f13b788cb',
         'Q-Auth': '31045b957cf33acf31e40be2f3e71c5217597676a9729f1b'
@@ -143,6 +143,7 @@ if __name__ == '__main__':
     end_position = match2.end()
     json_chuan = req[start_position + 15: end_position - 1]
     json_chuanchuan = json_chuan.replace('&quot;','').replace('&nbsp;','')
+    print json_chuanchuan
     # print json_chuanchuan
     titles = re.findall('title:(.*?),digest:', json_chuanchuan)
     content_times = re.findall('datetime:(.*?),', json_chuanchuan)
@@ -172,4 +173,4 @@ if __name__ == '__main__':
 
 
 
-    get_nextpageInfo(account_name,biz,pass_ticket,nextpage_id)
+    # get_nextpageInfo(account_name,biz,pass_ticket,nextpage_id)
